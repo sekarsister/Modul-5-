@@ -1,0 +1,15 @@
+Program 1 (palindrome.go):
+
+Program ini mengecek apakah angka yang diinput merupakan palindrome (dibaca sama dari depan dan belakang).
+
+· Input disalin ke variabel c untuk perbandingan nanti.
+· Loop membalik angka dengan mengambil digit terakhir (a % 10) dan menyusunnya di reversed.
+· Hasil akhir dibandingkan: jika c == reversed → true (palindrome), jika tidak → false.
+
+Program 2 (fibol.go):
+
+Program ini mencetak deret Fibonacci sebanyak a bilangan.
+
+· Dua angka pertama Fibonacci: x=0, y=1.
+· Setiap iterasi mencetak nilai x, lalu menghitung angka berikutnya dengan x, y = y, x+y.
+· Deret Fibonacci: 0, 1, 1, 2, 3, 5, 8, 13, ...
